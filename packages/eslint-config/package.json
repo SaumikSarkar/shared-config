@@ -1,0 +1,79 @@
+{
+	"name": "@saumiksarkar/eslint-config",
+	"version": "1.0.0",
+	"description": "Comprehensive ESLint config for modern JavaScript/TypeScript projects",
+	"main": "index.js",
+	"scripts": {
+		"semantic-release": "semantic-release"
+	},
+	"exports": {
+		".": "./presets/base.js",
+		"./base": "./presets/base.js",
+		"./react": "./presets/react.js",
+		"./typescript": "./presets/typescript.js",
+		"./react-typescript": "./presets/react-typescript.js",
+		"./jest": "./presets/jest.js",
+		"./jest-react": "./presets/jest-react.js",
+		"./node": "./presets/node.js",
+		"./vitest": "./presets/vitest.js",
+		"./vitest-react": "./presets/vitest-react.js",
+		"./chai-mocha": "./presets/chai-mocha.js",
+		"./sonar": "./presets/sonar.js"
+	},
+	"dependencies": {
+		"@babel/core": "^7.23.0",
+		"@babel/eslint-parser": "^7.23.0",
+		"@babel/preset-env": "^7.23.0",
+		"@typescript-eslint/eslint-plugin": "^7.0.0",
+		"@typescript-eslint/parser": "^7.0.0",
+		"eslint-config-airbnb": "^19.0.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-chai-friendly": "^0.7.2",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-plugin-import": "^2.28.0",
+		"eslint-plugin-jest": "^27.6.0",
+		"eslint-plugin-jsx-a11y": "^6.7.1",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-react": "^7.33.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-perf": "^3.3.0",
+		"eslint-plugin-security": "^1.7.1",
+		"eslint-plugin-simple-import-sort": "^10.0.0",
+		"eslint-plugin-sonarjs": "^3.0.4",
+		"eslint-plugin-testing-library": "^6.0.0",
+		"eslint-plugin-vitest": "^0.2.8"
+	},
+	"devDependencies": {
+		"semantic-release": "^23.0.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=8.0.0",
+		"prettier": "^3.0.0",
+		"typescript": "^5.0.0"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"typescript",
+		"react",
+		"jest",
+		"prettier"
+	],
+	"publishConfig": {
+		"access": "restricted",
+		"registry": "https://npm.pkg.github.com"
+	},
+	"release": {
+		"branches": [
+			"main"
+		],
+		"plugins": [
+			"@semantic-release/commit-analyzer",
+			"@semantic-release/release-notes-generator",
+			"@semantic-release/npm",
+			"@semantic-release/github"
+		]
+	},
+	"license": "MIT"
+}
