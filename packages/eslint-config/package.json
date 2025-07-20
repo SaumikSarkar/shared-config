@@ -4,7 +4,9 @@
 	"description": "Comprehensive ESLint config for modern JavaScript/TypeScript projects",
 	"main": "index.js",
 	"scripts": {
-		"semantic-release": "semantic-release"
+		"semantic-release": "semantic-release",
+		"lint": "biome check",
+		"lint:fix": "biome check --fix"
 	},
 	"exports": {
 		".": "./presets/base.js",
