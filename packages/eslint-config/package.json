@@ -17,7 +17,8 @@
 		"./node": "./presets/node.js",
 		"./vitest": "./presets/vitest.js",
 		"./vitest-react": "./presets/vitest-react.js",
-		"./chai-mocha": "./presets/chai-mocha.js"
+		"./chai-mocha": "./presets/chai-mocha.js",
+		"./sonar": "./presets/sonar.js"
 	},
 	"dependencies": {
 		"@babel/core": "^7.23.0",
