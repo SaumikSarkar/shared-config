@@ -1,6 +1,6 @@
 # @saumiksarkar/eslint-config
 
-[![npm version](https://img.shields.io/npm/v/@saumiksarkar/eslint-config)](https://www.npmjs.com/package/@saumiksarkar/eslint-config)
+[![npm version](https://img.shields.io/npm/v/@saumiksarkar/eslint-config)](https://github.com/users/SaumikSarkar/packages/npm/package/eslint-config)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 TypeScript/React ESLint configuration optimized for:
