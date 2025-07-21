@@ -1,14 +1,14 @@
-name: Release
+name: Pull request
 
 on:
-  push:
+  pull_request:
     branches: [main]
 
 env:
   NODE_VERSION: "22"
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
 
     permissions:
@@ -42,8 +42,11 @@ jobs:
         if: steps.yarn_cache.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile --ignore-scripts
 
-      - name: Release
+      - name: Check lint
+        run: yarn lint
+
+      - name: Release (dry-run)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn release
+        run: yarn release:dry-run
