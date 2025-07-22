@@ -15,9 +15,9 @@ Enforces consistent code quality, commit standards, and Jira (SSPORT-*) integrat
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| [`@saumiksarkar/eslint-config`](packages/eslint-config) | [![ESLint Version](https://img.shields.io/npm/v/@saumiksarkar/eslint)](packages/eslint-config) | TypeScript/React rules with SonarQube compatibility |
-| [`@saumiksarkar/commitlint-config`](packages/commitlint-config) | [![Commitlint Version](https://img.shields.io/npm/v/@saumiksarkar/commitlint)](packages/commitlint-config) | Enforces Jira keys in commits with semantic commits |
-| [`@saumiksarkar/prettier-config`](packages/prettier-config) | [![Prettier Version](https://img.shields.io/npm/v/@saumiksarkar/prettier)](packages/prettier-config) | Consistent code formatting |
+| [`@saumiksarkar/eslint-config`](packages/eslint-config) | [![GitHub Release](https://img.shields.io/github/v/release/SaumikSarkar/shared-config?include_prereleases&label=@saumiksarkar/eslint-config)](https://github.com/SaumikSarkar/shared-config/pkgs/npm/eslint-config) | TypeScript/React rules with SonarQube compatibility |
+| [`@saumiksarkar/commitlint-config`](packages/commitlint-config) | Not yet published | Enforces Jira keys in commits with semantic commits |
+| [`@saumiksarkar/prettier-config`](packages/prettier-config) | Not yet published | Consistent code formatting |
 
 ## 🔧 Installation
 
