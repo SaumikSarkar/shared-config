@@ -8,7 +8,6 @@
 	},
 	"exports": {
 		".": "./presets/base.js",
-		"./base": "./presets/base.js",
 		"./react": "./presets/react.js",
 		"./typescript": "./presets/typescript.js",
 		"./react-typescript": "./presets/react-typescript.js",
