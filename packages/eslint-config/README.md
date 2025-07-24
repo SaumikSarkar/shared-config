@@ -13,10 +13,17 @@ TypeScript/React ESLint configuration optimized for:
 
 | Preset | Description |
 |--------|-------------|
-| `@saumiksarkar/eslint-config` | Base TypeScript rules |
+| `@saumiksarkar/eslint-config` | Base JavaScript rules |
 | `@saumiksarkar/eslint-config/react` | React + JSX rules |
-| `@saumiksarkar/eslint-config/node` | Node.js best practices |
+| `@saumiksarkar/eslint-config/typescript` | Base TypeScript rules |
+| `@saumiksarkar/eslint-config/react-typescript` | React + TypeScript rules |
 | `@saumiksarkar/eslint-config/jest` | Jest testing patterns |
+| `@saumiksarkar/eslint-config/jest-react` | React + Jest testing patterns |
+| `@saumiksarkar/eslint-config/node` | Node.js best practices |
+| `@saumiksarkar/eslint-config/vitest` | Vitest testing patterns |
+| `@saumiksarkar/eslint-config/vitest-react` | React + Vitest testing patterns |
+| `@saumiksarkar/eslint-config/chai-mocha` | Chai + Mocha testing patterns |
+| `@saumiksarkar/eslint-config/sonar` | SonarQube best practices |
 
 ## 🚀 Installation
 
